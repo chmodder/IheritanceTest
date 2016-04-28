@@ -25,11 +25,11 @@ namespace IheritanceTest
             theDaughter.Name = "Leia";
             theDaughter.Age = 19;
 
-            //Add Son and Daughter object to the baseclass List<Father>
+            //Add Son and Daughter objects to the baseclass List<Father>
             myList.Add(theSon);
             myList.Add(theDaughter);
 
-            //Write the Father list
+            //Print objects in the Father list
             Console.WriteLine("*************iteration start***********");
             foreach (var item in myList)
             {
